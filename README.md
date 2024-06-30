@@ -2,6 +2,13 @@
 
 A flexible daily planner that uses Google Calendar as its backend
 
+# How to Run
+
+- `git clone` this repository.
+- Run `yarn install` in project root.
+- Create .env files in the client and server folders.
+- Run `yarn start` in the project root.
+
 # Ideas
 
 - Use FullCalendar DayView for the calendar view, can use the premium version for free if this project is FOSS
