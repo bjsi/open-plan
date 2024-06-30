@@ -1,0 +1,6 @@
+{
+  "name": "shared",
+  "private": true,
+  "main": "dist/src",
+  "version": "0.0.0"
+}

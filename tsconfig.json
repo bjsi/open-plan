@@ -1,11 +1,20 @@
 {
-  "files": [],
+  "compilerOptions": {
+    "strict": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "types": ["node"]
+  },
   "references": [
     {
-      "path": "./tsconfig.app.json"
+      "path": "./shared"
     },
     {
-      "path": "./tsconfig.node.json"
+      "path": "./client"
+    },
+    {
+      "path": "./server"
     }
   ]
 }
