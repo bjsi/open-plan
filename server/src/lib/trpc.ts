@@ -1,5 +1,5 @@
 import { initTRPC } from "@trpc/server";
-import * as trpcExpress from "@trpc/server/adapters/express";
+import type * as trpcExpress from "@trpc/server/adapters/express";
 
 // created for each request
 export const createContext = ({
